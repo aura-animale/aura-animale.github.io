@@ -1,0 +1,22 @@
+{
+  "name": "Accompagner son animal en fin de vie",
+  "short_name": "Mon carnet",
+  "description": "Journal de bord privé pour traverser la fin de vie de son animal, par Aura Animale.",
+  "start_url": "./journal-fin-de-vie.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f1e6",
+  "theme_color": "#6b4a34",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
