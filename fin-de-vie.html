@@ -833,11 +833,18 @@
   }
   @media print{
     body{background:#fff !important;}
-    #view-main, .icon-back, #btn-export-pdf, .save-toggle, footer.appfoot{display:none !important;}
+    #view-main, .icon-back, #btn-export-pdf, .save-toggle, footer.appfoot, .brand-row, .q-intro{display:none !important;}
     #view-history{display:block !important;}
-    .history-head::after{content:"Accompagner son animal en fin de vie — Aura Animale"; display:block; font-size:11px; color:#7a583c; margin-top:4px;}
-    .sub-card, .journal-entry{box-shadow:none !important; border:1px solid #ccc !important; break-inside:avoid;}
-    .mini-dot{-webkit-print-color-adjust:exact; print-color-adjust:exact;}
+    .history-head{border-bottom:1px solid #ccc; padding-bottom:8px; margin-bottom:14px;}
+    .history-title{display:none;}
+    .history-head::before{content:"Ton carnet de bord"; display:block; font-family:Arial, sans-serif; font-weight:700; font-size:16px; color:#2b1c12;}
+    .history-head::after{content:"Accompagner son animal en fin de vie — Aura Animale"; display:block; font-size:10px; color:#7a583c; margin-top:3px;}
+    .sub-card{box-shadow:none !important; border:1px solid #ccc !important; margin-bottom:10px !important;}
+    .journal-entry{box-shadow:none !important; border:1px solid #ccc !important; break-inside:avoid; margin-bottom:5px !important; padding:7px 10px !important;}
+    .journal-qgroup{margin-bottom:8px !important;}
+    .sub-body{padding:2px 12px 8px 12px !important;}
+    .sub-card summary{padding:8px 12px !important;}
+    .mini-dot, .sub-badge, .journal-entry::before, .journal-entry::after, .journal-qgroup .journal-entry:not(:last-child)::after{-webkit-print-color-adjust:exact; print-color-adjust:exact;}
   }
 </style>
 </head>
